@@ -91,6 +91,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<ToastService>();
 builder.Services.AddScoped<HttpService>();
 builder.Services.AddBlazorServices();
+builder.Services.AddHttpClient();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
